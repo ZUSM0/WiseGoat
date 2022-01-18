@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+*{
+    font-family: "https://fonts.google.com/share?selection.family=Roboto:wght@100";
+}
+
+body{  
+    background-color: snow;
+    margin: auto;
+    width: 800px;
+}
+
+button{
+    background-color: #72005F;
+    border-radius: 20px;
+    color: snow;
+    font-size: 2.1em;
+    font-weight: 500;
+    padding: 20px 55px;
+}
+
+div.btt{
+    margin-top: -150px;
+}
+
+div > img{
+    margin-left: 100px;
+    margin-top: 38px;
+    width: 350px;
+}
+
+h1{
+    font-size: 9.3em;
+    color:#72005F;
+}
+
+h1 > span{
+    color: #BAA193;
+    display: block;
+    margin-left: 18px;
+    margin-bottom: -26px;
+    font-size: 50px;
+}
+
+.side{
+    display: flex;
+    
+}
