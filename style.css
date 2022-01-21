@@ -1,48 +1,123 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Roboto' ;
+    src: url("https://fonts.google.com/share?selection.family=Roboto:wght@100");
+}
+
 *{
-    font-family: "https://fonts.google.com/share?selection.family=Roboto:wght@100";
+   font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color: snow;
+    text-decoration: none;
+    font-size: 2.5em;
+    font-weight: 500;
 }
 
 body{  
-    background-color: snow;
-    margin: auto;
-    width: 800px;
+    background-color: #8c6c8127;
 }
 
 button{
     background-color: #72005F;
     border-radius: 20px;
-    color: snow;
-    font-size: 2.1em;
-    font-weight: 500;
     padding: 20px 55px;
 }
 
-div.btt{
-    margin-top: -150px;
+button.two{
+    background-color: #72005F;
+    border-radius: 25px;
+    padding: 10px 20px 5px 20px;
 }
 
-div > img{
-    margin-left: 100px;
-    margin-top: 38px;
-    width: 350px;
+div.btt{
+    margin-top: -92px;
+    
+}
+
+div.goat1{
+    display: inline-block;
+    margin: 20px 25px;
+    
+}
+
+div.goat2{
+    padding: 0px 20px 20px 15px;
 }
 
 h1{
-    font-size: 9.3em;
     color:#72005F;
+}
+h1.principal{
+    font-size: 9.3em;
 }
 
 h1 > span{
     color: #BAA193;
     display: block;
-    margin-left: 18px;
+    margin-left: -175px;
     margin-bottom: -26px;
     font-size: 50px;
 }
 
-.side{
-    display: flex;
+h2{
+    color: #72005F;
+    font-size: 2.8em;
+    
+}
+
+h2 > span{
+    color: #BAA193;
+    display: block;
+    font-size: 27px;
+} 
+
+img.first{
+    max-width: 300px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+img.second{
+    border-radius: 5px;
+    margin-top: 20px;
+    max-height: 300px;
+    max-width: 350px;   
+}
+
+header{
+    background-color: #bf39a965;
+    box-shadow: 0px 0px 1px black;
+    margin: -10px -8px 0px -8px;
+    text-align: left;
+    padding: 1px 30px;
+
+}
+
+main{
+    text-align: center;
+    
+}
+
+main.other{
+    margin-top: 50px;
+}
+
+section.base{
+    padding-top: 20px;
+}
+
+section.box{
+    align-items: center;
+    background-color: #c295b25b;
+    display: inline-flex;
+    max-width: 950px;
+    box-shadow: 0px 0px 4px;
+    
+}
+section.container{
+    display: inline-block;
     
 }
