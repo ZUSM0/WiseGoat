@@ -16,6 +16,13 @@ a{
     font-weight: 500;
 }
 
+article{
+    padding: 40px 0px 40px 40px;
+    text-align: left;
+    max-width: 50%;
+    min-width: 30%;
+}
+
 body{  
     background-color: #8c6c8127;
 }
@@ -44,7 +51,8 @@ div.goat1{
 }
 
 div.goat2{
-    padding: 0px 20px 20px 15px;
+    margin-right: 10px;
+    
 }
 
 h1{
@@ -55,7 +63,7 @@ h1.principal{
 }
 
 h1 > span{
-    color: #BAA193;
+    color: #b17553;
     display: block;
     margin-left: -175px;
     margin-bottom: -26px;
@@ -65,14 +73,26 @@ h1 > span{
 h2{
     color: #72005F;
     font-size: 2.8em;
-    
+    padding-bottom: 10px;
 }
 
-h2 > span{
-    color: #BAA193;
+h2 > span{  
+    color: #af853bcc;
     display: block;
+    text-shadow: 0px 0px 1px #a1762bbb;
+    margin-bottom: -10px;
     font-size: 27px;
+    
 } 
+
+header{
+    background-color: #bf39a965;
+    box-shadow: 0px 0px 1px black;
+    margin: -30px -8px 0px -8px;
+    text-align: left;
+    padding: 1px 30px 0px 30px;
+
+}
 
 img.first{
     max-width: 300px;
@@ -81,20 +101,13 @@ img.first{
 }
 
 img.second{
+    
     border-radius: 5px;
     margin-top: 20px;
-    max-height: 300px;
-    max-width: 350px;   
+    max-width: 100%;   
+    
 }
 
-header{
-    background-color: #bf39a965;
-    box-shadow: 0px 0px 1px black;
-    margin: -10px -8px 0px -8px;
-    text-align: left;
-    padding: 1px 30px;
-
-}
 
 main{
     text-align: center;
@@ -112,9 +125,10 @@ section.base{
 section.box{
     align-items: center;
     background-color: #c295b25b;
+    box-shadow: 0px 0px 4px black;
     display: inline-flex;
+    min-height: 400px;
     max-width: 950px;
-    box-shadow: 0px 0px 4px;
     
 }
 section.container{
