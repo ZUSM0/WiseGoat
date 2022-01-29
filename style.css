@@ -39,20 +39,26 @@ button.two{
     padding: 10px 20px 5px 20px;
 }
 
-div.btt{
-    margin-top: -92px;
+div.btt{   
+    display: flex;
+    margin-left: 25px;
     
 }
 
 div.goat1{
     display: inline-block;
-    margin: 20px 25px;
+    padding: 20px 25px;
     
 }
 
 div.goat2{
     margin-right: 10px;
     
+}
+
+div.title{
+    display: inline-block;
+    margin-bottom: -105px;
 }
 
 h1{
@@ -97,7 +103,6 @@ header{
 img.first{
     max-width: 300px;
     margin: auto;
-    padding-top: 40px;
 }
 
 img.second{
@@ -131,7 +136,9 @@ section.box{
     max-width: 950px;
     
 }
+
 section.container{
+    align-items: center;
     display: inline-block;
-    
+    max-width: 800px;
 }
